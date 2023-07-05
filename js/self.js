@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // custom functions
     let checkDomain = (inputDomain) => {
-        let domainNotAvb = ['stwn.dev', 'dummy.com', 'git.com', 'google.com', 'facebook.com'];
+        let domainNotAvb = ['stwn.dev', 'dummy.com', 'git.com', 'google.com', 'facebook.com', 'pasrah.com'];
         
         return domainNotAvb.indexOf(inputDomain);
     };
