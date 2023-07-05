@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (domain === '') return;
         
         if (checkDomain(domain) === -1){
-            alert(`Your domain ${domain} is available, grab it fast, before someone else.`);
+            alert(`Your domain ${domain} is available, grab it fast, before someone took it.`);
         } else {
             alert(`Your domain ${domain} is not available, sorry.`);
         }
